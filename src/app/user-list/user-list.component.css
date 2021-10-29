@@ -1,1 +1,11 @@
+#user-list {
+  text-align: center;
+  width: 90%;
+  height: 28rem;
+  margin: 0.5rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  background-color: #D5E8D4;
+  border: 1px solid #70b06c;
 
+}

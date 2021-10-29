@@ -3,9 +3,8 @@ h1 {
 }
 #user-container {
   width: 50%;
-  height: 35rem;
+  height: 100%;
   margin: 0.5rem;
-  text-align: center;
   background-color: #DAE9FC;
   border: 1px solid #7eb1f4;
 }
@@ -17,34 +16,6 @@ h1 {
   border: 1px solid #f79995;
 }
 
-#user-list {
-  width: 60%;
-  height: 28rem;
-  margin: 0.5rem;
-  margin-top: 2rem;
-  margin-left: 2rem;
-  background-color: #D5E8D4;
-  border: 1px solid #70b06c;
-
-}
-
-#user-detail {
-  width: 40%;
-  margin: 0.5rem;
-  margin-top: 2rem;
-  margin-right: 2rem;
-  background-color: #FFF2CC;
-  border: 1px solid #d7bd71;
-
-}
-
-#order-list {
-  width: 95%;
-  height: 29rem;
-  margin: 1rem;
-  background-color: #E1D5E7;
-  border: 1px solid #89669b;
-}
 
 
 
