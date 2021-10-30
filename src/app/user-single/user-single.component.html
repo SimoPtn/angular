@@ -1,1 +1,3 @@
-<h6>user-single.component</h6>
+<ol>
+<li *ngFor = "let objs of obj"> <img src={{objs.profilePhotoUrl}} style="width:50px;"> {{ objs.name }} {{ objs.surname }} {{ objs.age }} {{ objs.address?.city }}</li>
+</ol>
