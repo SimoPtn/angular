@@ -6,7 +6,7 @@
       <!-- <img src={{objs.profilePhotoUrl}} style="width:50px;">
       <span class="fw-bold"> {{ objs.name }} {{ objs.surname }}</span>
        {{ objs.age }} {{ objs.address?.city }} -->
-       <app-user-single [obj] ="objs"></app-user-single>
+       <app-user-single [obj] ="objs" (delete) = "deleteUser($event)"></app-user-single>
     </li>
   </ol>
 </div>
