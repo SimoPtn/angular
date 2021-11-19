@@ -1,1 +1,25 @@
-<h6 class="mt-3">user-detail.component</h6>
+<div id="user-detail">
+  <h6 class="mt-3 text-center">user-detail.component</h6>
+  <div class="container text-left">
+      <p> id: {{ user.id }}</p>
+      <p> name: {{ user.name }}</p>
+      <p> surname: {{ user.surname }}</p>
+      <p> age: {{ user.age }}</p>
+      <p> Date of birth: {{ user.dateOfBirth | date: 'dd MMM yyyy' }}</p>
+      <p class="fw-bold"> Address: </p>
+      <p> City: {{ user.address?.city }}</p>
+      <p> Street: {{ user.address?.street }}</p>
+      <p> Postal Code: {{ user.address?.postalCode }}</p>
+      <p> Role: {{ user.role }}</p>
+      <p> usarname: {{ user.username }}</p>
+      <img src={{user.profilePhotoUrl}} style="width:150px;">
+      <p> Gender: {{ user.gender }}</p>
+      <p class="fw-bold"> Company: {{ user.companies[0].name }}</p>
+      <p> Description: {{ user.companies[0].description }}</p>
+      <p class="fw-bold"> Company: {{ user.companies[1].name }}</p>
+      <p> Description: {{ user.companies[1].description }}</p>
+  </div>
+</div>
+
+
+
