@@ -6,7 +6,7 @@ import { Obj, Role, Gender } from '../models/obj';
   styleUrls: ['./user-list.component.css']
 })
 export class UserListComponent implements OnInit {
-  obj: Obj[] = [
+  users: Obj[] = [
     {
       id: 3487,
       name: 'Mario',
