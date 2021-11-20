@@ -18,7 +18,7 @@ export interface Address {
     postalCode: string;
 }
 
-export interface Companies {
+export interface Company {
     id: number;
     name: string;
     description: string;
