@@ -6,7 +6,7 @@ import { Obj, Role, Gender } from '../models/obj';
   styleUrls: ['./user-list.component.css']
 })
 export class UserListComponent implements OnInit {
-  obj: Obj[] = [
+  users: Obj[] = [
     {
       id: 3487,
       name: 'Mario',
@@ -63,7 +63,7 @@ export class UserListComponent implements OnInit {
   }
 
   deleteUser (value: Obj) {
-    this.obj=this.obj.filter( (user) => user.id !== value.id )
+    this.users = this.users.filter( (user) => user.id !== value.id )
   }
 
 }
