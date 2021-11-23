@@ -2,11 +2,8 @@
 <div id="user-list">
   <h6 class="mt-3 text-center fw-bold">user-list.component</h6>
   <ol>
-    <li class="mt-3" *ngFor = "let objs of obj">
-      <!-- <img src={{objs.profilePhotoUrl}} style="width:50px;">
-      <span class="fw-bold"> {{ objs.name }} {{ objs.surname }}</span>
-       {{ objs.age }} {{ objs.address?.city }} -->
-       <app-user-single [obj] ="objs"></app-user-single>
+    <li class="mt-3" *ngFor="let user of users">
+       <app-user-single [user]="user"></app-user-single>
     </li>
   </ol>
 </div>

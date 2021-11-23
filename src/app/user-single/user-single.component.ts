@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Obj } from '../models/obj';
+import { User } from '../models/user';
 
 
 @Component({
@@ -8,7 +8,7 @@ import { Obj } from '../models/obj';
   styleUrls: ['./user-single.component.css']
 })
 export class UserSingleComponent implements OnInit {
-    @Input() obj!: Obj;
+    @Input() user!: User;
   constructor() { }
 
   ngOnInit(): void {
