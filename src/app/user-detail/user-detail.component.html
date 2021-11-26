@@ -14,12 +14,13 @@
       <p> usarname: {{ user.username }}</p>
       <img src={{user.profilePhotoUrl}} style="width:150px;">
       <p> Gender: {{ user.gender }}</p>
-      <p class="fw-bold"> Company: {{ user.companies[0].name }}</p>
-      <p> Description: {{ user.companies[0].description }}</p>
-      <p class="fw-bold"> Company: {{ user.companies[1].name }}</p>
-      <p> Description: {{ user.companies[1].description }}</p>
+      <div *ngFor="let company of user.company">
+        <p class="fw-bold"> Company: {{ company.name }}</p>
+        <p> Description: {{ company.description }}</p>
+      </div>
   </div>
 </div>
+
 
 
 

@@ -1,3 +1,4 @@
+import { componentFactoryName } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { User, Role, Gender } from '../models/user';
 
@@ -22,7 +23,7 @@ export class UserDetailComponent implements OnInit {
   role: Role.staff,
     username: 'MarioRossi80',
     profilePhotoUrl: 'https://bit.ly/3yRngEP',
-    companies: [
+    company: [
 		{
             id: 148979,
             name: 'Develhope',

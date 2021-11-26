@@ -8,7 +8,7 @@ export interface User {
     role?: Role;
     username?: string;
     profilePhotoUrl?: string;
-    companies: Companies[];
+    company?: Company[];
     gender?: Gender;
 }
 
