@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { Obj } from '../models/obj';
+import { User } from '../models/user';
 
 
 @Component({
@@ -8,14 +8,14 @@ import { Obj } from '../models/obj';
   styleUrls: ['./user-single.component.css']
 })
 export class UserSingleComponent implements OnInit {
-    @Input() obj!: Obj;
+    @Input() user!: User;
     @Output() delete = new EventEmitter();
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  deleteItem(value: Obj) {
+  deleteItem(value: User) {
     this.delete.emit(value);
 }
 

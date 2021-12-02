@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { Obj, Role, Gender } from '../models/obj';
+import { User, Role, Gender } from '../models/user';
 @Component({
   selector: 'app-user-list',
   templateUrl: './user-list.component.html',
   styleUrls: ['./user-list.component.css']
 })
 export class UserListComponent implements OnInit {
-  obj: Obj[] = [
+  users: User[] = [
     {
       id: 3487,
       name: 'Mario',
@@ -62,8 +62,8 @@ export class UserListComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  deleteUser (value: Obj) {
-    this.obj=this.obj.filter( (user) => user.id !== value.id )
+  deleteUser (value: User) {
+    this.users=this.users.filter( (user) => user.id !== value.id )
   }
 
 }

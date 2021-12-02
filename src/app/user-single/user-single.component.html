@@ -1,4 +1,3 @@
-<div class="userRole" [ngClass]="{'border-primary': obj.role == 'staff', 'border-secondary': obj.role == 'manager', 'border-success': obj.role == 'admin'}">
-  <p> {{ obj.name }} {{ obj.surname }} {{ obj.age }} </p>
-  <button (click)="deleteItem(obj)">Delete</button>
+<div>
+  <p>{{ user.name }} {{ user.surname }} {{ user.age }} </p>
 </div>
