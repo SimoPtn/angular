@@ -28,7 +28,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "/Users/Simon/Desktop/documenti per esercizi/angular/angularapp/node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
