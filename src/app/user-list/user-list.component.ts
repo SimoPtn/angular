@@ -63,11 +63,7 @@ export class UserListComponent implements OnInit {
   }
 
   deleteUser (value: User) {
-<<<<<<< HEAD
-    this.users=this.users.filter( (user) => user.id !== value.id )
-=======
     this.users = this.users.filter( (user) => user.id !== value.id )
->>>>>>> develop
   }
 
 }
