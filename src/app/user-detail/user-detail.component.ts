@@ -23,7 +23,7 @@ export class UserDetailComponent implements OnInit {
   role: Role.staff,
     username: 'MarioRossi80',
     profilePhotoUrl: 'https://bit.ly/3yRngEP',
-    company: [
+    companies: [
 		{
             id: 148979,
             name: 'Develhope',

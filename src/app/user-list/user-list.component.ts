@@ -62,6 +62,10 @@ export class UserListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  deleteUser (value: User) {
+    this.users = this.users.filter( (user) => user.id !== value.id )
+  }
+
 }
 
 
